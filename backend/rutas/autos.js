@@ -1,4 +1,4 @@
-|module.exports =  function autosHandler(autos){
+module.exports =  function autosHandler(autos){
     return {
         get: (data, callback) => { //creamos la ruta y el handler(es el manejador de la ruta)
             if(typeof data.indice !== "undefined"){
