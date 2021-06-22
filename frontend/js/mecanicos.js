@@ -12,7 +12,7 @@ let mecanicos = [];
 
 async function listarMecanicos() {
     try {
-        const respuesta = await   fetch(url); 
+        const respuesta = await fetch(url); 
         const mecanicosDelServer = await respuesta.json();
             if(Array.isArray(mecanicosDelServer)){
                 mecanicos = mecanicosDelServer
